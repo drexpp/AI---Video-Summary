@@ -5,11 +5,12 @@ import glob
 
 def recorre_imagenes():
     path="prueba"
+    listaFrames = []
 
     for image in os.listdir(path):
         input_path = os.path.join(path, image)
         histrRecord = []
-        listaFrames = []
+
 
         print (input_path)
 
